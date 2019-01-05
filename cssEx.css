@@ -1,46 +1,20 @@
-/* h1 그라디언트 효과 tag css
-h1 {
-  background: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  margin: 50px auto 0;
-  padding: 10px 25px;
-  text-align: center;
-  user-select: none;
+#grid {
+  display: grid;
+  grid-template-columns: auto auto;
 }
-
-h1 span {
-  background: linear-gradient(to right, #fbcac9, #8ca6ce);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
 }
-
-h1:hover {
-  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+.footer {
+  border-top: 1px solid gray;
 }
-
-h1:hover span {
-  color: #fff;
-  background: none;
-  -webkit-text-fill-color: #fff;
+.h3_text {
+  display: inline;
+  padding: 5px 0 5px 0;
 }
-*/
-/* 선택자 예시 | 호출(명시)
-  class="js"  | .js
-  id="id"     | #id
-  그외 선택자  | tag의 이름으로 작성
-
-  a {            // 선택자(selector)
-    color:red;   // 효과, 선언(Declaration)
-                 // color: property, red: value
-                 // 문장의 끝은 ;
-                 // color:red;
-  }
-*/
-
 .head{
      border-bottom: 1px solid gray;
      color: orange;
@@ -54,61 +28,33 @@ h1:hover span {
 .head a {
   color: orange;
 }
-/*
-h1 span {
-  color: orange;
-  font-size: 30px;
-  text-align: center;
+.js {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
 }
-*/
+.mail {
+  padding: 5px 10px 5px 0;
+  text-align: right;
+}
+.subnav ul {
+  /*border-right: 1px solid gray;*/
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px 5px 40px;
+}
+.textarea {
+  border-left: 1px solid gray;
+}
 a:link {
   text-decoration: none;
 }
 body {
   margin: 0;
 }
-h3 {
-  color: blue;
-  display: inline;
-}
-/*
-div ul a {
-  text-decoration: none;
-}
-*/
 hr {
   display: none;
 }
-ul {
-  list-style: circle;
-  /* Remove default bullets */
-}
-.js {
-  color: red;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8%;
-}
-/*
-ul {
-   border-right: 1px solid gray;
-   margin: 10px;
-   padding: 10px;
-
-
-
-   width: 300px;
-}
-*/
-.wrap {
-  border-right: 1px solid gray;
-  margin-left: 3px;
-  padding: 7px;
-  width: auto;
+p {
+  margin: 10px;
 }
