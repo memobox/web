@@ -1,0 +1,114 @@
+/* h1 그라디언트 효과 tag css
+h1 {
+  background: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 50px auto 0;
+  padding: 10px 25px;
+  text-align: center;
+  user-select: none;
+}
+
+h1 span {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1:hover {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+}
+
+h1:hover span {
+  color: #fff;
+  background: none;
+  -webkit-text-fill-color: #fff;
+}
+*/
+/* 선택자 예시 | 호출(명시)
+  class="js"  | .js
+  id="id"     | #id
+  그외 선택자  | tag의 이름으로 작성
+
+  a {            // 선택자(selector)
+    color:red;   // 효과, 선언(Declaration)
+                 // color: property, red: value
+                 // 문장의 끝은 ;
+                 // color:red;
+  }
+*/
+
+.head{
+     border-bottom: 1px solid gray;
+     color: orange;
+     height: auto;
+     line-height: normal;
+     margin: 0;
+     padding: 10px;
+     text-align: center;
+     width: auto;
+     }
+.head a {
+  color: orange;
+}
+/*
+h1 span {
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+}
+*/
+a:link {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+}
+h3 {
+  color: blue;
+  display: inline;
+}
+/*
+div ul a {
+  text-decoration: none;
+}
+*/
+hr {
+  display: none;
+}
+ul {
+  list-style: circle;
+  /* Remove default bullets */
+}
+.js {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+/*
+ul {
+   border-right: 1px solid gray;
+   margin: 10px;
+   padding: 10px;
+
+
+
+   width: 300px;
+}
+*/
+.wrap {
+  border-right: 1px solid gray;
+  margin-left: 3px;
+  padding: 7px;
+  width: auto;
+}
